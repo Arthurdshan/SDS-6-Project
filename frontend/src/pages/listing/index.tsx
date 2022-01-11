@@ -1,9 +1,9 @@
-
+import Pagination from "../../components/pagination";
 
 const Listing = () => {
     return (
-        <h1>TESTE LISTAGEM</h1>
-    )
+        <Pagination />
+    );
 }
 
 export default Listing;

@@ -14,6 +14,7 @@ public class Score implements Serializable
 
 	@EmbeddedId	
 	private ScorePK id = new ScorePK();
+	
 	private double value;
 
 	public Score()

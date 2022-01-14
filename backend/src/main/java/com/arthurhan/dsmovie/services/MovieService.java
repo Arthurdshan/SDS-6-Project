@@ -24,7 +24,7 @@ public class MovieService
 
 		return page;
 	}
-	
+	 
 	@Transactional(readOnly = true)
 	public MovieDTO findById(Long id)
 	{

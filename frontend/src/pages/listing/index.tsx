@@ -54,6 +54,6 @@ const Listing = () => {
             </div>
         </>
     );
-}
 
+}
 export default Listing;
